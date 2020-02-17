@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smarty Search Engine Page 2</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+</head>
+
+<style>
+.Logo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    justify-content: center;
+}
+
+.Logo > .circleLogo {
+    width: 50px;
+}
+
+.searchBar {
+    display:flex;
+    justify-content: center;
+    flex-direction:row;
+
+}
+
+.searchBar input{
+    font-size: 20px;
+    height: 17px;
+    width: 1220px;
+    display:flex;
+    border:none;
+    justify-content: center;
+    box-shadow: 0px 0px 11px -2px rgba(186,186,186,1);
+    /* font-family: 'Font Awesome\ 5 Free', Georgia, 'Times New Roman', Times, serif; */
+    transition: all 0.1s;
+
+}
+
+.searchBar input[type="text"] {
+    font-family: 'Font Awesome\ 5.7 Free', Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    padding: 20px;
+    font-family: 'Font Awesome\ 5 Free';
+    content: "\f002"; /* FontAwesome Unicode */
+
+}
+
+.searchBar input:focus {
+    outline: none;
+    box-shadow: 0px 0px 9px 4px rgba(180,180,180,1);
+
+
+
+}
+
+.searchBar input:focus::-webkit-input-placeholder {
+    color:transparent;
+}
+
+.results-wrapper{
+    display:grid;
+    margin-left:80px;
+    margin-top: 30px;
+    width: 1220;
+}
+.results-wrapper h2 {
+    color:blue;
+    font-size: 11px;
+    padding-top:20px;
+    padding-bottom: 5px;
+}
+.results-wrapper a{
+    text-decoration: none;
+    color:gray;
+    font-size: 15px;
+    font-weight: 600;
+    /* display:grid;
+    grid-template-rows: repeat(4, .5fr); */
+}
+
+.results-wrapper > .paragraphWrapper {
+    display:grid;
+    grid-template-columns: repeat(4, .5fr);
+    width:1220px;
+
+}
+
+.results-wrapper > .paragraphWrapper p{
+    width: 200px;
+    color:gray;
+    font-size: 13px;
+}
+
+
+
+
+
+</style>
+
+<body>
+
+    <div class="Logo">
+        <img class="circleLogo" src="images/newProject/ds_circle_logo.png" alt="logo">
+    </div>
+
+    <div class="searchBar">
+        <input type="text" id="searchBar" placeholder="&#xf002; Search DailySmarty">
+    </div>
+
+    <div class="results-wrapper">
+        
+        <h2>JavaScript</h2>
+
+        <a href="x">Guide to rendering posts on a Google Map in Rails</a>
+
+        <div class="paragraphWrapper">    
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+        </div>
+            <h2>JavaScript</h2>
+
+            <a href="x">Guide to rendering posts on a Google Map in Rails</a>
+            
+            <h2>JavaScript</h2>
+
+            <a href="x">Guide to rendering posts on a Google Map in Rails</a>
+            
+            <h2>JavaScript</h2>
+
+            <a href="x">Guide to rendering posts on a Google Map in Rails</a>
+            
+            <h2>JavaScript</h2>
+
+            <a href="x">Guide to rendering posts on a Google Map in Rails</a>
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+    </div>
+            
+    
+
+
+</body>
+
+</html>

@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smarty Search Engine</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+    
+</head>
+<style>
+.Logo {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    display: grid;
+    justify-content: center;
+}
+
+.Logo > .circleLogo {
+    width: 70px;
+}
+.searchBar {
+    display:flex;
+    justify-content: center;
+    flex-direction:row;
+
+}
+
+.searchBar input{
+    font-size: 20px;
+    height: 50px;
+    width: 900px;
+    display:flex;
+    border:none;
+    justify-content: center;
+    box-shadow: 0px 0px 11px -2px rgba(186,186,186,1);
+    /* font-family: 'Font Awesome\ 5 Free', Georgia, 'Times New Roman', Times, serif; */
+    transition: all 0.1s;
+
+}
+
+.searchBar input[type="text"] {
+    font-family: 'Font Awesome\ 5.7 Free', Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    padding: 20px;
+    font-family: 'Font Awesome\ 5 Free';
+    content: "\f002"; /* FontAwesome Unicode */
+
+}
+
+.searchBar input:focus {
+    outline: none;
+    box-shadow: 0px 0px 9px 4px rgba(180,180,180,1);
+
+}
+
+.searchBar input:focus::-webkit-input-placeholder {
+    color:transparent;
+}
+
+
+
+.pressReturn {
+    font-size: 9px;
+    display:flex;
+    justify-content:flex-end;
+    margin-right:242px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.page1bottom {
+
+    display:flex;
+    flex-direction: column;
+
+}
+
+.recentPosts {
+    color:blue;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 11px;
+    font-weight: bold;
+    padding-left: 242px;
+}
+
+.posts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 40px;
+    margin-right: 40px;
+    width:100%;
+}
+
+.post1 a{
+    color:rgb(77, 77, 77);
+    text-decoration: none;
+    font-size: 12px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    /* display:grid;
+    width:100%; */
+    
+}
+
+.post1 div{
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:gray;
+
+}
+
+</style>
+<body>  
+
+<div class="Logo">
+    <img class="circleLogo" src="images/newProject/ds_circle_logo.png" alt="logo">
+</div>
+<!-- <i class="fas fa-search"></i> -->
+
+<div class="searchBar">
+    <input type="text" id="searchBar" placeholder="&#xf002; Search DailySmarty">
+</div>
+
+<div class="pressReturn">
+    <p>Press return to search</p>
+</div>
+
+<div class="page1bottom">
+
+
+    <div class="recentPosts">
+        Recent Posts
+
+    </div>
+
+    <div class="posts">
+
+        <div class="post1">
+            <a href="x">Guide to rendering points on Google Map</a>
+            <div>JavaScript</div>
+        </div>
+
+        <div class="post1">
+            <a href="x">Guide to rendering points on Google Map</a>
+            <div>JavaScript</div>
+        </div>
+
+        <div class="post1">
+            <a href="x">Guide to rendering points on Google Map</a>
+            <div>JavaScript</div>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+    
+</body>
+</html>

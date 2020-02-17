@@ -1,0 +1,266 @@
+
+.head {
+    height:100px;
+    background-color:black;
+    display:flex;
+    border: 5px solid black; 
+    margin: -10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.head > .left-head {
+    width:95px;
+    height:100px;
+    display:grid;
+    align-items:center;
+    display:flex;
+}
+
+.head > .left-head img{
+    width:170px;
+    height:85px;
+    display:grid;
+    align-items:center;
+    padding:0px 20px 20px 5px;
+    filter:invert(1);
+}
+
+.head > .mid-left-head{
+    width: 500px;
+    color:white;
+    display:grid;
+    grid-template-columns: 1fr;
+    padding: 5px 0px 0px 120px;
+}
+
+.head > .mid-left-head > .explore {
+    color:yellow;
+    font-size: 20px;
+    display:flex;
+    align-items:flex-end;
+}
+
+.head > .mid-left-head > .nav {
+    color:white;
+    font-size:25px;
+    font-family: 'Patua One', cursive;
+}
+
+.head > .mid-right-head > .spark h1{
+    width: 90px;
+    color:gray;
+    font-size:20px;
+    padding: 40px 0px 5px 20px;
+}
+
+.head > .mid-right-head > .spark i{
+    font-size:15px;
+}
+
+.head > .right-head {
+    width:850px;
+    display:flex;
+    justify-content:flex-end;
+    padding: 15px 0px 0px 0px;
+}
+
+.head > .right-head > .create-btn-wrapper {
+    height: 50px;
+    display:flex;
+    padding-top: 10px; 
+}
+
+.head > .right-head > .create-btn-wrapper > .create-btn {
+    width:120px;
+    height:50px;
+    font-size: 18px;
+    background-color: gray;
+    color:white;
+    border:1px solid black;
+    border-radius: 2px;
+    
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.head > .right-head > .create-btn-wrapper > .create-btn > .create-chev i{
+    width: 25px;
+    height: 25px;
+    color:green;
+    font-size: 22px;
+    margin-top: 5px;
+}
+
+.head > .right-head > .search-logo {
+    font-size: 35px;
+    color:gray;
+    padding:20px 10px 10px 10px;
+}
+
+.head > .right-head > .log-in-btn{
+    padding:10px;
+}
+    
+.head > .right-head > .log-in-btn > .log-in {
+    width:120px;
+    height:50px;
+    font-size: 18px;
+    background-color: gray;
+    color:white;
+    padding:10px;
+    border:1px solid black;
+    border-radius: 2px;
+}
+
+.head > .right-head > .sign-up-btn{
+    padding:10px;
+}
+
+.head > .right-head > .sign-up-btn > .sign-up {
+    width:120px;
+    height:50px;
+    font-size: 18px;
+    background-color: gray;
+    color:white;
+    padding:10px;
+    border:1px solid black;
+    border-radius: 2px;
+}
+
+.hero {
+    height:500px;
+    background-color:gray;
+    margin:-10px;
+    box-shadow: inset -179px -177px 282px 22px rgba(0,0,0,0.78);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hero> .hero-left {
+    padding:30px 0px 0px 30px;
+}
+
+.hero> .hero-left > .p1{
+    font-size: 40px;
+    color:#fffaf0;
+    padding:30px 0px 0px 5px;
+    margin: -5px;
+}
+
+.hero> .hero-left i{
+    color:orange;
+}
+
+.hero> .hero-left > .p2{
+    font-size: 30px;
+    color:#fffaf0;
+    font-weight: 100;
+}
+
+.hero> .hero-left > .hero-btns {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero > .hero-left > .hero-btns > .sign-up-free-btn {
+    padding:20px 0px 0px 0px;
+}
+
+.hero > .hero-left > .hero-btns > .sign-up-free-btn > .sign-up-free{
+    height: 60px;
+    width: 250px;
+    background-color: palegreen;
+    font-size: 23px;
+    font-weight: bold;
+    padding:10px;
+    border:1px solid black;
+    border-radius: 2px;  
+}
+
+.hero > .hero-left > .hero-btns > .learn-more-btn {
+    padding: 20px 0px 0px 10px;
+}
+
+.hero > .hero-left > .hero-btns > .learn-more-btn > .learn-more{
+    height: 60px;
+    width: 200px;
+    background-color: black;
+    color:white;
+    font-size: 23px;
+    padding:10px;
+    border:1px solid black;
+    border-radius: 2px;
+}
+
+.hero > .hero-right > .codepen-projects-wrapper {
+    display:flex;
+    font-size: 20px;
+    padding: 50px 0px 3px 10px;
+}
+
+.hero > .hero-right > .codepen-img {
+    height: 423px;
+    width: 800px;
+    overflow:hidden;
+    display:flex;
+    box-shadow: -10px 0px 13px -6px rgba(0,0,0,0.78);
+}
+
+.hero > .hero-right > .codepen-img img{
+    height: 489px;
+    width: 1100px;
+    margin: -65px 0px 0px -66px;
+}
+
+.footer {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px -20px 0px -10px;
+    background-color: black;
+}
+
+.footer > .footer-btns {
+    display:block;
+    width:100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer > .footer-btns >.teams > .teams-btn {
+    height:80px;
+    width:100%;
+    border:1px solid rgb(180, 180, 180);
+    background-color: rgb(39, 39, 39);
+    color:white;
+    font-size:25px;
+}
+
+.footer > .footer-btns >.education > .education-btn {
+    height:80px;
+    width:100%;
+    border:1px solid rgb(180, 180, 180);
+    background-color: rgb(39, 39, 39);
+    color:white;
+    font-size:25px;
+}
+
+.footer > .footer-btns >.privacy > .privacy-btn {
+    height:80px;
+    width:100%;
+    border:1px solid rgb(180, 180, 180);
+    background-color: rgb(39, 39, 39);
+    color:white;
+    font-size:25px;
+}
+
+.footer > .footer-btns >.writing > .writing-btn {
+    height:80px;
+    width:100%;
+    border:1px solid rgb(180, 180, 180);
+    background-color: rgb(39, 39, 39);
+    color:white;
+    font-size:25px;
+}
